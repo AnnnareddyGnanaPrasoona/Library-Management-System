@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+.mainContainer {
+  min-height: 100vh;
+  display: flex;
+  overflow-y: auto;
+  .leftContent {
+    min-width: 14vw;
+    background-color: #111827;
+    color: #ffffff;
+  }
+  .rightContent {
+    min-width: 85vw;
+  }
+}
